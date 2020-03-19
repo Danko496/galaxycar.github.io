@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Auto saloon</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+
+    <a href="#" class="navbar-brand bg-primar mb-5">
+        <h3 class="mb-2 ml-1 font-weight-bolder text-dark">AUTOSALOON GALAXY</h3>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+   </button>  
+
+    <div class="collapse navbar-collapse bg-danger mb-3 p-1" id="mainNavbar">
+  
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a href="#home" class="nav-link text-light"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+             <a href="#about" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item">
+                 <a href="#service" class="nav-link  text-light">Service</a>
+            </li>
+            <li class="nav-item">
+            <a href="#blog" class="nav-link  text-light">Blog</a>
+            </li>
+            <li class="nav-item">
+            <a href="#pages" class="nav-link  text-light">Contact</a>
+            </li>
+            <li class="nav-item">
+            <a href="#contact" class="nav-link text-light">Register</a>
+            </li>
+        </ul>
+    </div>      
+</nav>
+
+    <section id="home" class="d-flex justify-content-center mt-5 align-items-center">
+        <div class="row p-3">
+
+           <div class="col-md-2">
+               <div class="btn-group mt-5 d-block text-center">
+                <a href="#carsearch"><button class="button btn btn-outline-light font-weight-bolder mb-2" data-toggle="modal" data-target="#btnmodal1">BUY YOUR CAR</button></a>
+                <a href="#rent"><button class="button btn btn-outline-light font-weight-bolder mb-2"data-toggle="modal" data-target="#btnModal2">SELL YOUR CAR</button></a>
+                <button class="button btn btn-outline-light font-weight-bolder mb-2"data-toggle="modal" data-target="#btnModal3">RENT A CAR</button>
+               </div>
+            </div>
+
+            <div class="col-md-8">
+                <div id="header" class="header container text-center p-3 mt-3">
+                    <p class="lead display-5 mb-0 ">FIND YOUR DREAM CAR</p>
+                    <h1 class="display-3 mb-3 ">AUTOSALOON GALAXY</h1>
+                    <p class="lead display-5 d-md-block ">High Performance & Outstanding Technology Combined</p>
+                    
+                    <form class="form-inline justify-content-center p-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" size="70" placeholder="Enter a quick search..." required>
+                            <div class="input-group-btn">
+                                <button type="button" class="btn text-dark btn-outline-warning" data-toggle="modal" data-target=""> SEARCH </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="btn-group mt-5 d-block text-center">
+                    <button class="button btn btn-outline-light font-weight-bolder mb-2" data-toggle="modal" data-target="#btnModal4"><i class="fas fa-user mr-1"></i>SIGN IN</button>
+                    <button class="button btn btn-outline-light font-weight-bolder mb-2"data-toggle="modal" data-target="#btnModal5"><i class="fas fa-users-cog mr-1"></i>REGISTER</button>
+                    <button class="button btn btn-outline-light font-weight-bolder mb-2"data-toggle="modal" data-target="#search1">READ MORE</button>
+                   </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container text-center mt-5">
+            
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="boxx">
+                        <img src="images/buy6.png" class="img-fluid d-none d-md-inline" alt="">
+                        <h3>BUY YOUR CAR</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, excepturi?</p>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/buy5.png" class="img-fluid d-none d-md-inline" alt="">
+                    <h3>SELL YOUR CAR</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, excepturi?</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/buy2.png" class="img-fluid d-none d-md-inline" alt="">
+                    <h3>RENT A CAR</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, excepturi?</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <section id="carsearch" class="p-5">
+        <div class="row p-3">
+            <div class="col-md-6">
+                <div class="card text-center mt-2">
+                    <div class="form-group font-weight-bolder ml-5 mr-5">
+                        <label for="sel1" class="mt-4">BRAND</label>
+                        <select class="form-control" id="sel1">
+                        <option selected>brand name</option>
+                        <option>Audi</option>
+                        <option>Alfa Romeo</option>
+                        <option>BMW</option>
+                        <option>Citroen</option>
+                        <option>Fiat</option>
+                        <option>Ford</option>
+                        <option>Hyundai</option>
+                        <option>Infiniti</option>
+                        <option>Jaguar</option>
+                        <option>Jeep</option>
+                        <option>Kia</option>
+                        <option>Land Rover</option>
+                        <option>Lexus</option>
+                        <option>Mazda</option>
+                        <option>Mercedes-Benz</option>
+                        <option>Mini</option>
+                        <option>Mitsubishi</option>
+                        <option>Nissan</option>
+                        <option>Peugeot</option>
+                        <option>Renault</option>
+                        <option>Rolls Royce</option>
+                        <option>Tesla</option>
+                        <option>Toyota</option>
+                        <option>Volkswagen</option>
+                        <option>Volvo</option>
+                        </select>
+                    </div>
+                    <div class="form-group font-weight-bolder ml-5 mr-5">
+                        <label for="sel1">MODEL</label>
+                        <select class="form-control" id="sel1">
+                        <option>select brand</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                    </div>
+                    <div class="form-group font-weight-bolder ml-5 mr-5">
+                        <label for="sel1">YEAR</label>
+                        <select class="form-control" id="sel1">
+                        <option>select brand</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox p-2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>TRANSMISION</p><hr>
+                                <label class="checkbox-inline"><input type="checkbox" value="">Manual</label>
+                                <label class="checkbox-inline ml-2"><input type="checkbox" value="">Automatic</label>
+                            </div>
+
+                            <div class="col-md-6">
+                                <p >FUEL</p><hr>
+                                <label class="checkbox-inline mr-2"><input type="checkbox" value="">Petrol</label></label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">Diesel</label></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group font-weight-bold ml-5 mr-5 mt-2">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="sel1">MIN YEAR</label>
+                                <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="sel1">MIN YEAR</label>
+                                <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="sel1">MIN PRICE</label>
+                                <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="sel1">MAX PRICE</label>
+                                <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="search-footer mb-3">
+                        <button class="btn btn-lg btn-outline-dark">SEARCH</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-5 text-center text-white">
+                <h2 class="mt-5">FIND YOUR CAR</h2>
+                <h4 class="mt-5 font-weight-light">SEARCH-HIRE-COMPARE-SAFE</h4>
+                <p class="lead mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis iure velit, delectus labore dolorem beatae quae molestias soluta animi nisi aut deserunt id sit eius, voluptates necessitatibus nobis dolore voluptatum. Delectus voluptate maxime totam eius est, pariatur nulla distinctio quod sint itaque recusandae nostrum!</p>
+                    <button class="btn btn-lg btn-outline-light mt-5" data-toggle="modal" data-target="#readmore1">Read more</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="caroffers" class="mt-3">
+        <div class=" row justify-content-center bg-danger p-3 text-white">
+            <h3 class="font-weight-bold mt-2">VEHICLES IN STOCK</h3>
+        </div>
+        
+            <div class="row p-3 ml-5 mr-5">
+                
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">                       
+                        <a href="volvo.html">
+                            <div class="card-main p-2">
+                                <img src="images/car10.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bolder">Volvo V40 2.0 D</p><hr>
+                        </div>
+
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">                   
+                            <div class="card-main p-2">
+                                <img src="images/car11.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">Audi A5 Sportback 2.0 TDI </p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">        
+                            <div class="card-main p-2">
+                                <img src="images/car12.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">Nissan Qashqai 1.5 DCI</p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">                     
+                            <div class="card-main p-2">
+                                <img src="images/car13.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">BMW 316 D F30 SPORTPAKET</p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center bg-danger p-3 text-white">
+                <h3 class="font-weight-bold mt-2">VEHICLES ON ARRIVIAL</h3>
+            </div>
+
+            <div class="row p-3 ml-5 mr-5">
+                
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">                       
+                        <a href="volvo.html">
+                            <div class="card-main p-2">
+                                <img src="images/car15.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bolder">Volkswagen Passat 1.6 CR TDI</p><hr>
+                        </div>
+
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">                   
+                            <div class="card-main p-2">
+                                <img src="images/car18.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">BMW 520 D G30 Tiptronik</p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">        
+                            <div class="card-main p-2">
+                                <img src="images/car19.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">Citroen C4 1.6 BlueHDI</p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card1 border-secondary">  
+                        <a href="#">                     
+                            <div class="card-main p-2">
+                                <img src="images/car20.jpg" class="img-fluid" alt="">
+                            </div>
+                        </a>
+
+                        <div class="cardup p-2 text-center">
+                            <p class="card-text font-weight-bold">Mercedes-Benz C 200 D BlueTEC</p><hr>
+                        </div>
+                        <div class="card-down ml-4">
+                            <p class="mb-0 font-weight-light"><strong>PRICE: </strong>12.000 €</p>
+                            <p class="mb-0 font-weight-light"><strong>YEAR: </strong>2017</p>
+                            <p class="font-weight-light"><strong>MILEAGE: </strong>136 082</p><hr>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="rent" class="p-5 mt-2">
+        
+            <div class="row">
+
+                <div class="col-md-6 p-5 text-center text-white">
+                    <h3 class="mt-5">HOW MUCH DOES YOUR CAR COST?</h3>
+                    <h5 class="font-weight-light mt-4">Free car rating - fast and without obligation</h5>
+                    <div class="p lead mt-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quidem dicta fugiat quo itaque assumenda earum iste et accusamus magnam perspiciatis, doloribus nam beatae sed inventore eum illo nulla pariatur eos eius vero. Cumque culpa officia harum? Doloremque vel odio voluptatum, a architecto deleniti magni sunt minus possimus quia. Quidem.</div>
+                    <button class="btn btn-lg btn-outline-light mt-5" data-toggle="modal" data-target="#readmore2">Read more</button>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card p-3 mt-5 border-light text-center">
+                        <div class="form-group font-weight-bolder mt-3 ml-5 mr-5">
+                            <label for="sel1">BRAND</label>
+                          <select class="form-control" id="sel1">
+                            <option>Audi</option>
+                            <option>Alfa Romeo</option>
+                            <option>BMW</option>
+                            <option>Citroen</option>
+                            <option>Fiat</option>
+                            <option>Ford</option>
+                            <option>Hyundai</option>
+                            <option>Infiniti</option>
+                            <option>Jaguar</option>
+                            <option>Jeep</option>
+                            <option>Kia</option>
+                            <option>Land Rover</option>
+                            <option>Lexus</option>
+                            <option>Mazda</option>
+                            <option>Mercedes-Benz</option>
+                            <option>Mini</option>
+                            <option>Mitsubishi</option>
+                            <option>Nissan</option>
+                            <option>Peugeot</option>
+                            <option>Renault</option>
+                            <option>Rolls Royce</option>
+                            <option>Tesla</option>
+                            <option>Toyota</option>
+                            <option>Volkswagen</option>
+                            <option>Volvo</option>
+                          </select>
+                      </div>
+
+                      <div class="form-group font-weight-bolder ml-5 mr-5">
+                         <label for="sel1">MODEL</label>
+                         <select class="form-control" id="sel1">
+                         <option>select brand</option>
+                         <option>2</option>
+                         <option>3</option>
+                         <option>4</option>
+                         </select>
+                       </div>
+
+                    <div class="form-group font-weight-bolder ml-5 mr-5">
+                       <label for="sel1">YEAR</label>
+                       <select class="form-control" id="sel1">
+                       <option>select brand</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4</option>
+                       </select>
+                    </div>
+
+                    <div class="checkbox ml-4">
+                        <label class="checkbox-inline float-left ml-3"><input type="checkbox" value="">Manual</label>
+                        <label class="checkbox-inline float-left ml-3"><input type="checkbox" value="">Automatic</label>
+                    <br><hr>
+                    </div>
+                    <div class="checkbox ml-4">
+                        <label class="checkbox-inline float-left ml-3"><input type="checkbox" value="">Petrol</label></label>
+                        <label class="checkbox-inline float-left ml-4"><input type="checkbox" value="">Diesel</label></label>
+                    </div>
+                        <div class="card-footer">
+                            <button class="btn btn-lg btn-outline-dark mt-2">RATE NOW FOR FREE</button>
+                        </div>
+                    </div><!--card-->
+
+                </div>
+  
+               
+            </div>
+        
+    </section>
+
+
+    
+        <div class="modal" id="search1" tabindex="-1" role="dialog">
+            <div class="modal-dialog" id="document">
+                <div class="modal-content p-3">
+
+                    <div class="container text-center mt-5 p-5">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2>SEE ALL OUR OFFERS</h2>
+                        <div class="row mt-3">
+                            <div class="col-md-4 p-3">
+                                <div class="boxx">
+                                    <h5>BUY YOUR CAR</h5>                                   
+                                    <img src="images/buy6.png" class="img-fluid d-none p-2 d-md-inline" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="col-md-4 p-3">
+                                <h5>SELL YOUR CAR</h5>
+                                <img src="images/buy5.png" class="img-fluid d-none d-md-inline" alt="">
+                            </div>
+            
+                            <div class="col-md-4 p-3">
+                                <h5>RENT A CAR</h5>
+                                <img src="images/buy2.png" class="img-fluid d-none d-md-inline " alt="">
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="cardbtn justify-content-center">
+                            <button class="btn btn-dark text-white">Read more</button>
+                        </div>
+                    </div>
+
+                    <div class="modal-body text-center p-3">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum rem quaerat modi, ducimus ut odio?</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="readmore1" tabindex="-1" role="dialog">
+            <div class="modal-dialog" id="document">
+                <div class="modal-content p-5">
+
+                    <div class="modal-header text-center p-5">
+                        <h3>SOME AWESOME TEXT</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body text-center p-3">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci itaque recusandae illo possimus assumenda? Laboriosam ex velit laudantium pariatur quod necessitatibus, dicta recusandae, fugiat cumque itaque adipisci doloremque nobis qui! Quisquam est, aliquid commodi explicabo laboriosam libero animi numquam vitae soluta aperiam rem voluptatem? Consequatur adipisci ipsum labore quia!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="readmore2" tabindex="-1" role="dialog">
+            <div class="modal-dialog" id="document">
+                <div class="modal-content p-5">
+
+                    <div class="modal-header text-center p-5">
+                        <h3>SOME AWESOME TEXT</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body p-3 text-center">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci itaque recusandae illo possimus assumenda? Laboriosam ex velit laudantium pariatur quod necessitatibus, dicta recusandae, fugiat cumque itaque adipisci doloremque nobis qui! Quisquam est, aliquid commodi explicabo laboriosam libero animi numquam vitae soluta aperiam rem voluptatem? Consequatur adipisci ipsum labore quia!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body{
+    font-family: "Raleway", sans-serif;
+   
+    }
+
+.navbar{
+font-weight: 120;
+position: absolute;
+top:0;
+right:0;
+left: 0;
+z-index: 3;
+}
+
+
+.navbar-brand h3{
+    font-weight: 100;
+
+}
+
+.nav-item{
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    transition: border 0.2s;
+border-bottom: 1px solid white; 
+}
+
+#home{
+background: url("../images/bg5.jpg")  bottom center / cover no-repeat;
+min-height: 750px;
+max-height: 850px;
+    position: relative;
+}
+
+
+#header{
+    z-index: 5;
+    margin-bottom: 50px;
+background-color: whitesmoke;
+border-radius: 10px;}
+
+#header h1{
+    font-family: "Questrial", sans-serif;
+    line-height:1 ;
+    color:darkslategray;
+}
+
+#header p{
+    color:darkslategray ;
+    font-family: "Questrial", sans-serif;
+   
+}
+
+.btn-group .button{
+    width: 150px;
+    font-size: 16px;
+}
+
+
+
+#about h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+#rent{
+    background: url("../images/bg5.jpg");
+}
+
+.card{
+border-radius: 25px;
+background-color: whitesmoke;
+}
+
+.card1{
+    border-style:solid;
+    border-radius: 5px;
+}
+
+#carsearch{
+    background: url("../images/bg5.jpg");
+
+}
+
